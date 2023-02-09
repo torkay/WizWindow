@@ -1,0 +1,15 @@
+﻿<Window x:Class="WizWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WizWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400">
+    <Grid Background="#FF131313">
+        <TextBlock Name="centreTitle" Text="WizBot" Foreground="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="70" FontWeight="Bold" Margin="0,85,0,0"></TextBlock>
+        <TextBlock Name="versionBuild" Text="Version 0.0.1a" Foreground="AliceBlue" HorizontalAlignment="Center" FontSize="20" VerticalAlignment="Top" Margin="0,183,0,0"></TextBlock>
+        <Button Name="loginBtn" Height="50" Width="200" Background="#FF191919" Content="Login" Foreground="AliceBlue" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,323,0,0" />
+        <Button Name="signUpBtn" Height="50" Width="200" Background="#FF191919" Content="Purchase" Foreground="AliceBlue" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,391,0,0" ></Button>
+    </Grid>
+</Window>
